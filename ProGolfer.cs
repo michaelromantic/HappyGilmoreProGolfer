@@ -54,6 +54,11 @@ namespace Happy_Gilmore
             return Energy;
         }
 
+        public string GetName()
+        {
+            return Name;
+        }
+
         public void AllInTheHips()
         {
             Accuracy += 15;

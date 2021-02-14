@@ -21,7 +21,7 @@ namespace Happy_Gilmore
                 Console.WriteLine("5. Fight Bob Barker");
                 Console.WriteLine("6. Find your Happy Place");
                 Console.WriteLine("7. Eat a cold cut combo");
-                Console.WriteLine("8. Play a round of golf with Shooter McGavin");
+                Console.WriteLine("8. Go head to head vs Shooter McGavin");
                 Console.WriteLine("9. Directions/Breakdown");
                 Console.WriteLine("10. Quit Game");
 
@@ -80,8 +80,8 @@ namespace Happy_Gilmore
                             Console.WriteLine("Let me just enjoy the one thing that makes me a little bit happy. \nThis fresh, cold, delicious, turkey-filled, cold-cut combo from Subway!  \nI eat three every day to keep me strong.");
                             break;
                         case "8":
-                            myGolfer.Shooter();
-                            Console.WriteLine("You spend more time in the sand than David Hasselhoff!");
+                            Shooter newGame = new Shooter();
+                            newGame.ShooterGame();
                             break;
                         case "9":
                             Directions();
